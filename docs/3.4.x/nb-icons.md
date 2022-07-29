@@ -53,7 +53,7 @@ title: NativeBase Icons
 2. To add particular fonts: (For example, if you need to add AntDesignFonts and MaterialIconsFonts, write this piece of code in `_document.js`)
    <br/>
 
-````jsx
+```jsx
    import { default as NativebaseDocument } from "@native-base/next-adapter/document";
    import AntDesignFontFaceCSS from "@native-base/icons/FontsCSS/AntDesignFontFaceCSS";
    import MaterialIconsFontFaceCSS from "@native-base/icons/FontsCSS/MaterialIconsFontFaceCSS";
@@ -80,6 +80,7 @@ title: NativeBase Icons
    ```
 
 3. Update `next.config.js` with this code if you are using [`@native-base/next adapter`](https://github.com/GeekyAnts/native-base-next-adapter)):
+   </br>
 
    ```jsx
        const { withNativebase } = require("@native-base/next-adapter");
@@ -116,7 +117,6 @@ title: NativeBase Icons
 ### Create React App:
 
 - Add Fonts:
-<br/>
 
 1. To add all the fonts, write this piece of code in `index.jsx/index.tsx`:
  <br/>
@@ -128,7 +128,6 @@ title: NativeBase Icons
    style.appendChild(document.createTextNode(fontsCSS));
    document.head.appendChild(style);
    ```
-    <br/>
 
 2. To add a particular font
  <br/>
